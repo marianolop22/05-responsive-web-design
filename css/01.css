@@ -1,0 +1,35 @@
+.oferta {
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.precio {
+    font-size: 6rem;
+    margin: 0;
+
+}
+
+/* PAra imprimir */
+@media print {
+    body {
+        background-color: red;
+    }
+}
+
+/* maximo de pantalla de 600*/
+/* menor a los 600px aplica esto */
+@media ( max-width: 600px ) {
+    /* body {
+        background-color: red;
+    } */
+    .oferta {
+        max-width: 30rem;
+    }
+
+    .precio {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,10 @@
+/* contenedor responsive */
+.contenedor-responsive {
+    background-color: #FFFFFF;
+    width: 90%;
+    max-width: 1000px;
+    height: 400px;
+    /* margin-inline: auto; */
+    margin: 0 auto
+}
+
